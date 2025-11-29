@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQX - Cursos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #e5e5e5;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background: linear-gradient(90deg, #d4cfcf 0%, #d7d9d9 60%, #12b2ab 75%, #5e2a4a 100%);
+            height: 70px;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .left img {
+            width: 50px;
+            height: 50px;
+        }
+
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border: 2px solid #000;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner {
+            margin-top: 10px;
+            width: 100%;
+            height: 180px;
+            background: linear-gradient(90deg, #0a4d63, #8a0ca8);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .banner-img {
+            width: 180px;
+            margin-bottom: 10px;
+        }
+
+        .titulo {
+            text-align: center;
+            font-size: 22px;
+            margin: 25px 0;
+            font-weight: bold;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 10px 0 40px;
+        }
+
+        .card {
+            width: 220px;
+            background: white;
+            border-radius: 8px;
+            padding-bottom: 15px;
+            box-shadow: 0 0 10px #0002;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 130px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            font-size: 15px;
+            padding: 10px;
+        }
+
+        .card p {
+            font-size: 13px;
+            padding: 0 10px 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 8px 12px;
+            background: #0179ff;
+            color: white;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: linear-gradient(90deg, #1f083d, #008080);
+            color: #fff;
+            padding: 25px 40px;
+        }
+
+        .social-commercial-support {
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .section h3 {
+            margin-bottom: 10px;
+        }
+    </style>
+
+    <header>
+        <div class="left">
+            <a href="inicial.html">
+                <img src="https://i.ibb.co/pqnFHHQ/Captura-de-tela-2025-11-24-100501.png" alt="logo" /></a>
+            <nav>
+                <a href="somos.html">O QUE SOMOS</a>
+                <a href="cursos.html">CURSOS</a>
+                <a href="livros.html">BIBLIOTECA</a>
+                <a href="info1.html">LOJA</a>
+            </nav>
+        </div>
+
+        <a href="login.html">
+            <div class="avatar">👤</div>
+        </a>
+    </header>
+    <section class="banner">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqcYk6UI9E_U5MSpuvqtRIuGScTi_CpmJByQ&s"
+            class="banner-img">
+        <h2>NOSSOS CURSOS SÃO OS<br>MELHORES DO MERCADO</h2>
+    </section>
+
+    <h2 class="titulo">CURSOS - MÉDIA</h2>
+
+    <section class="cards">
+
+        <!-- PRIMEIRA FILEIRA -->
+        <div class="card">
+            <img src="https://i.ibb.co/NnxM4L7z/quanto-tempo-dura-o-curso-de-quimica.jpg">
+            <h3>Química do ZERO ao Essencial</h3>
+            <p>Material completo para estudo avançado com práticas e exercícios.</p>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+
+        <div class="card">
+            <img src="https://i.ibb.co/mCtxdhwL/shutterstock-1573264651-scaled-3.jpg">
+            <h3>Estruturas, Átomos e Transformações</h3>
+            <p>Material completo para estudo avançado com práticas e exercícios.</p>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+
+        <!-- SEGUNDA FILEIRA NOVA -->
+        <div class="card">
+            <img
+                src="https://i.ibb.co/wFtgKQM9/redimencionar-630-494-this-could-be-groundbreaking-discovery-shot-female-scientist-working-lab-1.webp">
+            <h3>Bioquímica Celular</h3>
+            <p>Compreenda reações essenciais dentro da célula.</p>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+
+        <div class="card">
+            <img src="https://i.ibb.co/WvR5pMHj/pexels-artem-podrez-5726837-1604005561-9823.jpg">
+            <h3>Estrutura Atômica Avançada</h3>
+            <p>Estudo detalhado da construção da matéria.</p>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+
+        <div class="card">
+            <img src="https://i.ibb.co/zWtqyjd4/images.jpg">
+            <h3>Hidrocarbonetos: Estruturas e Reações</h3>
+            <p>Curso leve e rápido para começar do zero.</p>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+
+        <div class="card">
+            <img src="https://i.ibb.co/0Rfv8WXc/images.jpg">
+            <h3>Química Experimental</h3>
+            <p>Aulas práticas com experimentos e segurança.</p>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="social-commercial-support">
+
+            <div class="section">
+                <h3>REDES SOCIAIS</h3>
+                <p>• TIK TOK</p>
+                <p>• INSTAGRAM</p>
+            </div>
+
+            <div class="section">
+                <h3>COMERCIAL</h3>
+                <p>(41) 9785-8907</p>
+            </div>
+
+            <div class="section">
+                <h3>SUPORTE</h3>
+                <p>0800 003 0200</p>
+                <p><b>SUPORTE@AQX.COM</b></p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
